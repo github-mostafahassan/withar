@@ -1,0 +1,173 @@
+
+:root{
+    --mainColor : #009ad8;
+}
+
+nav{
+    z-index: 33333;
+    
+}
+
+
+
+nav li{
+list-style: none;
+
+}
+
+
+nav a{
+
+    outline: (2px solid transparent) ;
+
+    padding: 6px 15px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 15px;
+    transition:1s all;
+}
+
+
+nav a:hover{
+
+    outline: 3px solid var(--mainColor) ;
+
+
+}
+
+/* .active{
+
+    outline: 3px solid var(--mainColor)  ;
+} */
+
+header{
+
+    height: 50vh;
+    background: url(https://routeweather.netlify.app/images/banner.png);
+
+}
+
+input{
+
+    border: none;
+    outline: none;
+    color: var(--mainColor);
+
+}
+
+input::placeholder{
+    color: var(--mainColor);
+}
+
+header button{
+
+    right: 5px;
+    
+
+}
+
+/* 
+.sec-1 .container{
+    transform: translateY(-50%);
+    
+} */
+
+.art-1{
+    background:#444;
+    
+}
+
+.art-2{
+    background: #222;
+}
+
+.art-1 h2{
+    font-size: 70px;
+
+}
+
+.art-3{
+    background-color: #444;
+}
+
+.sec-1{
+    /* background-image: url(./img/drop-3698073_1920.jpg); */
+    /* background-size: cover;
+    */
+    background-color: cornflowerblue;
+}
+
+.sec-2 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    margin: 5px;
+    padding: 0px 10px;
+    transition:1s all;
+
+}
+
+.sec-2 li:hover{
+
+    background-color: white;
+    border: 2px solid var(--mainColor);
+    color: var(--mainColor);
+
+}
+.sec-2 a{
+    color: white;
+}
+
+.sec-2 li:hover a{
+
+    color: var(--mainColor);
+    
+
+} 
+
+.taime {
+    background-color: var(--mainColor);
+    justify-content: center;
+    align-items: center;
+}
+
+.hour ,  .minet  ,  .second{
+    font-size: 30px;
+    color: white;
+}
+
+/* {
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* @media screen and (max-width: 600px) {
+
+    nav a{
+        background-color: #eee;
+        color: black;
+        text-align: center;
+        width: fit-content;
+        padding: 10px 20px;
+    }
+    
+} */
